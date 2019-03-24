@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>index page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="webjars/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <script src="webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<p>Index Page</p>
+<div class="jumbotron">
+    <div class="alert alert-success" role="alert">
+        <h1 th:text="${hello}"></h1>
+    </div>
+</div>
+<div class="alert alert-primary" role="alert">
+    <p class="text-primary" th:text="${dateTime}"></p>
+</div>
+</body>
+</html>
