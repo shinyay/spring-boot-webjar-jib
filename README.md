@@ -16,6 +16,12 @@ This project is created which is based on [docker-maven-spring-boot-template](ht
 
 ## Usage
 
+### Build DockerImage
+
+```
+$ ./mvnw clean compile jib:dockerBuild
+```
+
 ## Installation
 
 ## Licence
