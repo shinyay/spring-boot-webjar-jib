@@ -22,6 +22,12 @@ This project is created which is based on [docker-maven-spring-boot-template](ht
 $ ./mvnw clean compile jib:dockerBuild
 ```
 
+### Push DockerImage into Docker Hub
+
+```
+./mvnw compile jib:build -Djib.to.auth.username=$DOCKERHUB_USER -Djib.to.auth.password=$DOCKERHUB_PASSWORD
+```
+
 ## Installation
 
 ## Licence
