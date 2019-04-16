@@ -88,9 +88,12 @@
                 <artifactId>jib-maven-plugin</artifactId>
                 <version>1.0.2</version>
                 <configuration>
-                    <from>
-                        <image>registry.hub.docker.com/openjdk:11-jdk-slim</image>
-                    </from>
+                    <!--<from>-->
+                        <!--<image>registry.hub.docker.com/openjdk:11-jdk-slim</image>-->
+                    <!--</from>-->
+					<from>
+						<image>shinyay/adoptopenjdk11-minimum</image>
+					</from>
                     <to>
 						<image>registry.hub.docker.com/shinyay/springboot-webjar:jib</image>
                         <credHelper>osxkeychain</credHelper>
