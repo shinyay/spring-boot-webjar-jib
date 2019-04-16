@@ -28,6 +28,12 @@ $ ./mvnw clean compile jib:dockerBuild
 ./mvnw compile jib:build -Djib.to.auth.username=$DOCKERHUB_USER -Djib.to.auth.password=$DOCKERHUB_PASSWORD
 ```
 
+### Run Docker Container
+
+```
+$ docker run --rm -p 8080:8080 -v (pwd)/log:/app/log shinyay/springboot-webjar:jib
+```
+
 ## Installation
 
 ## Licence
